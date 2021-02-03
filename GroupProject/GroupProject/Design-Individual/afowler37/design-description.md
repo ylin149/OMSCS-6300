@@ -1,0 +1,11 @@
+When the app is started it will display a main menu with all the current offers that will only display the “company” attribute. There will also be a “settings”, “enter job offers” and a “compare offers” button. This fills all requirements in #1. 
+
+Clicking any of those offers will bring up a menu that allows you to edit the fields. There will be a “save”, “compareOffer” and “exit” button on that screen as well. The other fields displayed would be for each of the requirements in part 2. Clicking save will assign the input in the fields to the underlying attributes. Clicking exit will not update the fields. All fields listed in the UML class diagram correspond to a required input to compare based on requirement #2. 
+
+The enter job offer button will bring up a user interface similar to when a user clicks an offer that already exists. They will all be blank fields initially and the user will have to fill them in. There will also be a save and exit button. This screen will need one last button to “enter another offer” without going back to the main menu, so it is slightly different. The user can set which offer is their current job offer as well. 
+
+Back to the main menu, clicking the settings button will bring up a new window that will have input fields that will populate the ComparisonSettings class and there will be a save button and an exit button with similar behavior to the offer save and exit buttons.
+
+Finally, the main menu also contains the compare offers button. This will be the sorted list of Offers that are contained in the main menu. Clicking any of those two offers will display the final scores based on the weighting algorithm described in the description document and all comparisons that are weight adjusted.
+
+The actual weighting algorithm is contained in the applyComparisonSettings() function. Requirements 7,8 and 9 will be implemented entirely within the design. The GUI implementation does not need to be displayed in the class diagram. The current implementation shown will be plenty fast and there will be no lag for the customer as well as shown there is only a single MainMenu class which contains all needed classes and information within a single system. 

@@ -1,0 +1,504 @@
+
+Test Case 1  		<error>
+   The file idenfified by filename exists :  File does not exists
+
+
+Test Case 2  		<single>
+   File Size :  Empty
+
+
+Test Case 3  		<error>
+   File Extension :  Not a text file
+
+
+Test Case 4  		<single>
+   Number of arguments passed :  Zero
+
+
+Test Case 5  		<error>
+   Arguments passed :  Invalid option specified
+
+
+Test Case 6  		<error>
+   Arguments passed :  Mutually exclusive present r and k
+
+
+Test Case 7  		(Key = 1.2.1.1.2.2.1.)
+   The file idenfified by filename exists :  File exists
+   File Size                              :  Not empty
+   File Content                           :  Alphanumeric Characters
+   File Extension                         :  Text File
+   Number of arguments passed             :  More than Zero
+   Arguments passed                       :  Mutually exclusive not present
+   Argument passed                        :  t value of 1 default case
+
+
+Test Case 8  		(Key = 1.2.1.1.2.2.2.)
+   The file idenfified by filename exists :  File exists
+   File Size                              :  Not empty
+   File Content                           :  Alphanumeric Characters
+   File Extension                         :  Text File
+   Number of arguments passed             :  More than Zero
+   Arguments passed                       :  Mutually exclusive not present
+   Argument passed                        :  t valid value different than default
+
+
+Test Case 9  		(Key = 1.2.1.1.2.2.3.)
+   The file idenfified by filename exists :  File exists
+   File Size                              :  Not empty
+   File Content                           :  Alphanumeric Characters
+   File Extension                         :  Text File
+   Number of arguments passed             :  More than Zero
+   Arguments passed                       :  Mutually exclusive not present
+   Argument passed                        :  t invalid value different than default
+
+
+Test Case 10 		(Key = 1.2.1.1.2.2.4.)
+   The file idenfified by filename exists :  File exists
+   File Size                              :  Not empty
+   File Content                           :  Alphanumeric Characters
+   File Extension                         :  Text File
+   Number of arguments passed             :  More than Zero
+   Arguments passed                       :  Mutually exclusive not present
+   Argument passed                        :  sort argument
+
+
+Test Case 11 		(Key = 1.2.1.1.2.2.5.)
+   The file idenfified by filename exists :  File exists
+   File Size                              :  Not empty
+   File Content                           :  Alphanumeric Characters
+   File Extension                         :  Text File
+   Number of arguments passed             :  More than Zero
+   Arguments passed                       :  Mutually exclusive not present
+   Argument passed                        :  remove argument
+
+
+Test Case 12 		(Key = 1.2.1.1.2.2.6.)
+   The file idenfified by filename exists :  File exists
+   File Size                              :  Not empty
+   File Content                           :  Alphanumeric Characters
+   File Extension                         :  Text File
+   Number of arguments passed             :  More than Zero
+   Arguments passed                       :  Mutually exclusive not present
+   Argument passed                        :  keep argument
+
+
+Test Case 13 		(Key = 1.2.1.1.2.2.7.)
+   The file idenfified by filename exists :  File exists
+   File Size                              :  Not empty
+   File Content                           :  Alphanumeric Characters
+   File Extension                         :  Text File
+   Number of arguments passed             :  More than Zero
+   Arguments passed                       :  Mutually exclusive not present
+   Argument passed                        :  t argument for keeping characters present
+
+
+Test Case 14 		(Key = 1.2.1.1.2.2.8.)
+   The file idenfified by filename exists :  File exists
+   File Size                              :  Not empty
+   File Content                           :  Alphanumeric Characters
+   File Extension                         :  Text File
+   Number of arguments passed             :  More than Zero
+   Arguments passed                       :  Mutually exclusive not present
+   Argument passed                        :  l argument for adding number at the beginning of each line
+
+
+Test Case 15 		(Key = 1.2.1.1.2.4.1.)
+   The file idenfified by filename exists :  File exists
+   File Size                              :  Not empty
+   File Content                           :  Alphanumeric Characters
+   File Extension                         :  Text File
+   Number of arguments passed             :  More than Zero
+   Arguments passed                       :  Valid option specified
+   Argument passed                        :  t value of 1 default case
+
+
+Test Case 16 		(Key = 1.2.1.1.2.4.2.)
+   The file idenfified by filename exists :  File exists
+   File Size                              :  Not empty
+   File Content                           :  Alphanumeric Characters
+   File Extension                         :  Text File
+   Number of arguments passed             :  More than Zero
+   Arguments passed                       :  Valid option specified
+   Argument passed                        :  t valid value different than default
+
+
+Test Case 17 		(Key = 1.2.1.1.2.4.3.)
+   The file idenfified by filename exists :  File exists
+   File Size                              :  Not empty
+   File Content                           :  Alphanumeric Characters
+   File Extension                         :  Text File
+   Number of arguments passed             :  More than Zero
+   Arguments passed                       :  Valid option specified
+   Argument passed                        :  t invalid value different than default
+
+
+Test Case 18 		(Key = 1.2.1.1.2.4.4.)
+   The file idenfified by filename exists :  File exists
+   File Size                              :  Not empty
+   File Content                           :  Alphanumeric Characters
+   File Extension                         :  Text File
+   Number of arguments passed             :  More than Zero
+   Arguments passed                       :  Valid option specified
+   Argument passed                        :  sort argument
+
+
+Test Case 19 		(Key = 1.2.1.1.2.4.5.)
+   The file idenfified by filename exists :  File exists
+   File Size                              :  Not empty
+   File Content                           :  Alphanumeric Characters
+   File Extension                         :  Text File
+   Number of arguments passed             :  More than Zero
+   Arguments passed                       :  Valid option specified
+   Argument passed                        :  remove argument
+
+
+Test Case 20 		(Key = 1.2.1.1.2.4.6.)
+   The file idenfified by filename exists :  File exists
+   File Size                              :  Not empty
+   File Content                           :  Alphanumeric Characters
+   File Extension                         :  Text File
+   Number of arguments passed             :  More than Zero
+   Arguments passed                       :  Valid option specified
+   Argument passed                        :  keep argument
+
+
+Test Case 21 		(Key = 1.2.1.1.2.4.7.)
+   The file idenfified by filename exists :  File exists
+   File Size                              :  Not empty
+   File Content                           :  Alphanumeric Characters
+   File Extension                         :  Text File
+   Number of arguments passed             :  More than Zero
+   Arguments passed                       :  Valid option specified
+   Argument passed                        :  t argument for keeping characters present
+
+
+Test Case 22 		(Key = 1.2.1.1.2.4.8.)
+   The file idenfified by filename exists :  File exists
+   File Size                              :  Not empty
+   File Content                           :  Alphanumeric Characters
+   File Extension                         :  Text File
+   Number of arguments passed             :  More than Zero
+   Arguments passed                       :  Valid option specified
+   Argument passed                        :  l argument for adding number at the beginning of each line
+
+
+Test Case 23 		(Key = 1.2.2.1.2.2.1.)
+   The file idenfified by filename exists :  File exists
+   File Size                              :  Not empty
+   File Content                           :  Non-alphanumeric Characters
+   File Extension                         :  Text File
+   Number of arguments passed             :  More than Zero
+   Arguments passed                       :  Mutually exclusive not present
+   Argument passed                        :  t value of 1 default case
+
+
+Test Case 24 		(Key = 1.2.2.1.2.2.2.)
+   The file idenfified by filename exists :  File exists
+   File Size                              :  Not empty
+   File Content                           :  Non-alphanumeric Characters
+   File Extension                         :  Text File
+   Number of arguments passed             :  More than Zero
+   Arguments passed                       :  Mutually exclusive not present
+   Argument passed                        :  t valid value different than default
+
+
+Test Case 25 		(Key = 1.2.2.1.2.2.3.)
+   The file idenfified by filename exists :  File exists
+   File Size                              :  Not empty
+   File Content                           :  Non-alphanumeric Characters
+   File Extension                         :  Text File
+   Number of arguments passed             :  More than Zero
+   Arguments passed                       :  Mutually exclusive not present
+   Argument passed                        :  t invalid value different than default
+
+
+Test Case 26 		(Key = 1.2.2.1.2.2.4.)
+   The file idenfified by filename exists :  File exists
+   File Size                              :  Not empty
+   File Content                           :  Non-alphanumeric Characters
+   File Extension                         :  Text File
+   Number of arguments passed             :  More than Zero
+   Arguments passed                       :  Mutually exclusive not present
+   Argument passed                        :  sort argument
+
+
+Test Case 27 		(Key = 1.2.2.1.2.2.5.)
+   The file idenfified by filename exists :  File exists
+   File Size                              :  Not empty
+   File Content                           :  Non-alphanumeric Characters
+   File Extension                         :  Text File
+   Number of arguments passed             :  More than Zero
+   Arguments passed                       :  Mutually exclusive not present
+   Argument passed                        :  remove argument
+
+
+Test Case 28 		(Key = 1.2.2.1.2.2.6.)
+   The file idenfified by filename exists :  File exists
+   File Size                              :  Not empty
+   File Content                           :  Non-alphanumeric Characters
+   File Extension                         :  Text File
+   Number of arguments passed             :  More than Zero
+   Arguments passed                       :  Mutually exclusive not present
+   Argument passed                        :  keep argument
+
+
+Test Case 29 		(Key = 1.2.2.1.2.2.7.)
+   The file idenfified by filename exists :  File exists
+   File Size                              :  Not empty
+   File Content                           :  Non-alphanumeric Characters
+   File Extension                         :  Text File
+   Number of arguments passed             :  More than Zero
+   Arguments passed                       :  Mutually exclusive not present
+   Argument passed                        :  t argument for keeping characters present
+
+
+Test Case 30 		(Key = 1.2.2.1.2.2.8.)
+   The file idenfified by filename exists :  File exists
+   File Size                              :  Not empty
+   File Content                           :  Non-alphanumeric Characters
+   File Extension                         :  Text File
+   Number of arguments passed             :  More than Zero
+   Arguments passed                       :  Mutually exclusive not present
+   Argument passed                        :  l argument for adding number at the beginning of each line
+
+
+Test Case 31 		(Key = 1.2.2.1.2.4.1.)
+   The file idenfified by filename exists :  File exists
+   File Size                              :  Not empty
+   File Content                           :  Non-alphanumeric Characters
+   File Extension                         :  Text File
+   Number of arguments passed             :  More than Zero
+   Arguments passed                       :  Valid option specified
+   Argument passed                        :  t value of 1 default case
+
+
+Test Case 32 		(Key = 1.2.2.1.2.4.2.)
+   The file idenfified by filename exists :  File exists
+   File Size                              :  Not empty
+   File Content                           :  Non-alphanumeric Characters
+   File Extension                         :  Text File
+   Number of arguments passed             :  More than Zero
+   Arguments passed                       :  Valid option specified
+   Argument passed                        :  t valid value different than default
+
+
+Test Case 33 		(Key = 1.2.2.1.2.4.3.)
+   The file idenfified by filename exists :  File exists
+   File Size                              :  Not empty
+   File Content                           :  Non-alphanumeric Characters
+   File Extension                         :  Text File
+   Number of arguments passed             :  More than Zero
+   Arguments passed                       :  Valid option specified
+   Argument passed                        :  t invalid value different than default
+
+
+Test Case 34 		(Key = 1.2.2.1.2.4.4.)
+   The file idenfified by filename exists :  File exists
+   File Size                              :  Not empty
+   File Content                           :  Non-alphanumeric Characters
+   File Extension                         :  Text File
+   Number of arguments passed             :  More than Zero
+   Arguments passed                       :  Valid option specified
+   Argument passed                        :  sort argument
+
+
+Test Case 35 		(Key = 1.2.2.1.2.4.5.)
+   The file idenfified by filename exists :  File exists
+   File Size                              :  Not empty
+   File Content                           :  Non-alphanumeric Characters
+   File Extension                         :  Text File
+   Number of arguments passed             :  More than Zero
+   Arguments passed                       :  Valid option specified
+   Argument passed                        :  remove argument
+
+
+Test Case 36 		(Key = 1.2.2.1.2.4.6.)
+   The file idenfified by filename exists :  File exists
+   File Size                              :  Not empty
+   File Content                           :  Non-alphanumeric Characters
+   File Extension                         :  Text File
+   Number of arguments passed             :  More than Zero
+   Arguments passed                       :  Valid option specified
+   Argument passed                        :  keep argument
+
+
+Test Case 37 		(Key = 1.2.2.1.2.4.7.)
+   The file idenfified by filename exists :  File exists
+   File Size                              :  Not empty
+   File Content                           :  Non-alphanumeric Characters
+   File Extension                         :  Text File
+   Number of arguments passed             :  More than Zero
+   Arguments passed                       :  Valid option specified
+   Argument passed                        :  t argument for keeping characters present
+
+
+Test Case 38 		(Key = 1.2.2.1.2.4.8.)
+   The file idenfified by filename exists :  File exists
+   File Size                              :  Not empty
+   File Content                           :  Non-alphanumeric Characters
+   File Extension                         :  Text File
+   Number of arguments passed             :  More than Zero
+   Arguments passed                       :  Valid option specified
+   Argument passed                        :  l argument for adding number at the beginning of each line
+
+
+Test Case 39 		(Key = 1.2.3.1.2.2.1.)
+   The file idenfified by filename exists :  File exists
+   File Size                              :  Not empty
+   File Content                           :  Combination of different types of characters
+   File Extension                         :  Text File
+   Number of arguments passed             :  More than Zero
+   Arguments passed                       :  Mutually exclusive not present
+   Argument passed                        :  t value of 1 default case
+
+
+Test Case 40 		(Key = 1.2.3.1.2.2.2.)
+   The file idenfified by filename exists :  File exists
+   File Size                              :  Not empty
+   File Content                           :  Combination of different types of characters
+   File Extension                         :  Text File
+   Number of arguments passed             :  More than Zero
+   Arguments passed                       :  Mutually exclusive not present
+   Argument passed                        :  t valid value different than default
+
+
+Test Case 41 		(Key = 1.2.3.1.2.2.3.)
+   The file idenfified by filename exists :  File exists
+   File Size                              :  Not empty
+   File Content                           :  Combination of different types of characters
+   File Extension                         :  Text File
+   Number of arguments passed             :  More than Zero
+   Arguments passed                       :  Mutually exclusive not present
+   Argument passed                        :  t invalid value different than default
+
+
+Test Case 42 		(Key = 1.2.3.1.2.2.4.)
+   The file idenfified by filename exists :  File exists
+   File Size                              :  Not empty
+   File Content                           :  Combination of different types of characters
+   File Extension                         :  Text File
+   Number of arguments passed             :  More than Zero
+   Arguments passed                       :  Mutually exclusive not present
+   Argument passed                        :  sort argument
+
+
+Test Case 43 		(Key = 1.2.3.1.2.2.5.)
+   The file idenfified by filename exists :  File exists
+   File Size                              :  Not empty
+   File Content                           :  Combination of different types of characters
+   File Extension                         :  Text File
+   Number of arguments passed             :  More than Zero
+   Arguments passed                       :  Mutually exclusive not present
+   Argument passed                        :  remove argument
+
+
+Test Case 44 		(Key = 1.2.3.1.2.2.6.)
+   The file idenfified by filename exists :  File exists
+   File Size                              :  Not empty
+   File Content                           :  Combination of different types of characters
+   File Extension                         :  Text File
+   Number of arguments passed             :  More than Zero
+   Arguments passed                       :  Mutually exclusive not present
+   Argument passed                        :  keep argument
+
+
+Test Case 45 		(Key = 1.2.3.1.2.2.7.)
+   The file idenfified by filename exists :  File exists
+   File Size                              :  Not empty
+   File Content                           :  Combination of different types of characters
+   File Extension                         :  Text File
+   Number of arguments passed             :  More than Zero
+   Arguments passed                       :  Mutually exclusive not present
+   Argument passed                        :  t argument for keeping characters present
+
+
+Test Case 46 		(Key = 1.2.3.1.2.2.8.)
+   The file idenfified by filename exists :  File exists
+   File Size                              :  Not empty
+   File Content                           :  Combination of different types of characters
+   File Extension                         :  Text File
+   Number of arguments passed             :  More than Zero
+   Arguments passed                       :  Mutually exclusive not present
+   Argument passed                        :  l argument for adding number at the beginning of each line
+
+
+Test Case 47 		(Key = 1.2.3.1.2.4.1.)
+   The file idenfified by filename exists :  File exists
+   File Size                              :  Not empty
+   File Content                           :  Combination of different types of characters
+   File Extension                         :  Text File
+   Number of arguments passed             :  More than Zero
+   Arguments passed                       :  Valid option specified
+   Argument passed                        :  t value of 1 default case
+
+
+Test Case 48 		(Key = 1.2.3.1.2.4.2.)
+   The file idenfified by filename exists :  File exists
+   File Size                              :  Not empty
+   File Content                           :  Combination of different types of characters
+   File Extension                         :  Text File
+   Number of arguments passed             :  More than Zero
+   Arguments passed                       :  Valid option specified
+   Argument passed                        :  t valid value different than default
+
+
+Test Case 49 		(Key = 1.2.3.1.2.4.3.)
+   The file idenfified by filename exists :  File exists
+   File Size                              :  Not empty
+   File Content                           :  Combination of different types of characters
+   File Extension                         :  Text File
+   Number of arguments passed             :  More than Zero
+   Arguments passed                       :  Valid option specified
+   Argument passed                        :  t invalid value different than default
+
+
+Test Case 50 		(Key = 1.2.3.1.2.4.4.)
+   The file idenfified by filename exists :  File exists
+   File Size                              :  Not empty
+   File Content                           :  Combination of different types of characters
+   File Extension                         :  Text File
+   Number of arguments passed             :  More than Zero
+   Arguments passed                       :  Valid option specified
+   Argument passed                        :  sort argument
+
+
+Test Case 51 		(Key = 1.2.3.1.2.4.5.)
+   The file idenfified by filename exists :  File exists
+   File Size                              :  Not empty
+   File Content                           :  Combination of different types of characters
+   File Extension                         :  Text File
+   Number of arguments passed             :  More than Zero
+   Arguments passed                       :  Valid option specified
+   Argument passed                        :  remove argument
+
+
+Test Case 52 		(Key = 1.2.3.1.2.4.6.)
+   The file idenfified by filename exists :  File exists
+   File Size                              :  Not empty
+   File Content                           :  Combination of different types of characters
+   File Extension                         :  Text File
+   Number of arguments passed             :  More than Zero
+   Arguments passed                       :  Valid option specified
+   Argument passed                        :  keep argument
+
+
+Test Case 53 		(Key = 1.2.3.1.2.4.7.)
+   The file idenfified by filename exists :  File exists
+   File Size                              :  Not empty
+   File Content                           :  Combination of different types of characters
+   File Extension                         :  Text File
+   Number of arguments passed             :  More than Zero
+   Arguments passed                       :  Valid option specified
+   Argument passed                        :  t argument for keeping characters present
+
+
+Test Case 54 		(Key = 1.2.3.1.2.4.8.)
+   The file idenfified by filename exists :  File exists
+   File Size                              :  Not empty
+   File Content                           :  Combination of different types of characters
+   File Extension                         :  Text File
+   Number of arguments passed             :  More than Zero
+   Arguments passed                       :  Valid option specified
+   Argument passed                        :  l argument for adding number at the beginning of each line
+

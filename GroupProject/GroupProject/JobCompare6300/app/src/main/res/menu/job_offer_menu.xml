@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="10dp" android:layout_width="10dp">
+    <item
+        android:id="@+id/add"
+        android:onClick="addNewJob"
+        android:title="Add Job Offer" />
+    <item
+        android:id="@+id/edit"
+        android:onClick="editExistingJob"
+        android:title="Edit Job Offer" />
+    <item
+        android:id="@+id/delete"
+        android:onClick="deleteExistingJob"
+        android:title="Delete Job Offer" />
+    <item
+        android:id="@+id/backToMainMenu"
+        android:onClick="returnToMainMenu"
+        android:title="Back to Main Menu" />
+</menu>

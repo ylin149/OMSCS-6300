@@ -1,0 +1,36 @@
+# Filename
+  The file idenfified by filename exists:
+      File exists.
+      File does not exists.                                 [error]
+
+# File
+  File Size:
+      Empty.                                                [single][property emptyfile] 
+      Not empty.
+  File Content:
+      Alphanumeric Characters.                              [property !emptyfile][property alpha] 
+      Non-alphanumeric Characters.                          [property !emptyfile][property nonalpha] 
+      Combination of different types of characters.         [property !emptyfile][property alpha][property nonalpha]                 
+  File Extension:
+      Text File.                                            [property textfile] 
+      Not a text file.                                      [property !textfile] [error]
+
+# Arguments
+  Number of arguments passed:
+      Zero.                                                 [single]][property !emptyfile][property textfile] 
+      More than Zero.                                       [property !emptyfile][property textfile]
+  Arguments passed:
+      Invalid option specified.                              [property !emptyfile][property invalidarg][error]
+      Mutually exclusive not present.                        [property emptyfile][property !invalidarg]
+      Mutually exclusive present r and k.                    [property invalidarg][error]
+      Valid option specified.                                   [property validarg]
+  Argument passed:
+      t value of 1 default case.                                        [property !emptyfile][property t][property validarg]
+      t valid value different than default.                                        [property !emptyfile][property t][property validarg]
+      t invalid value different than default.                                        [property !emptyfile][property t][property validarg]
+      sort argument.                                                 [property !emptyfile][property alpha][property nonalpha][property s][property textfile][property validarg]
+      remove argument.                                               [property !emptyfile][property alpha][property nonalpha] [property r][property textfile] [property validarg]
+      keep argument.                                                 [property !emptyfile][property alpha][property nonalpha][property !r][property k][property textfile] [property validarg]
+      t argument for keeping characters present.                     [property !emptyfile][property alpha][property nonalpha][property t][property textfile] [property validarg]
+      l argument for adding number at the beginning of each line.    [property !emptyfile][property alpha][property nonalpha][property l][property textfile] [property validarg]
+

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <PreferenceCategory android:title="Job Comparison Settings">
+
+        <EditTextPreference
+            android:title="Commute Time"
+            android:summary="Set Your Commute Time"
+            android:inputType="number"
+            android:key="prefCommute" />
+
+        <EditTextPreference
+            android:title="Yearly Salary"
+            android:summary="Set Your Yearly Salary"
+            android:inputType="number"
+            android:key="prefYearlySalary" />
+
+        <EditTextPreference
+            android:title="Yearly Bonus"
+            android:summary="Set Your Yearly Bonus"
+            android:inputType="number"
+            android:key="prefYearlyBonus" />
+
+        <EditTextPreference
+            android:title="Retirement Benefits"
+            android:summary="Set Your Retirement Benefits"
+            android:inputType="number"
+            android:key="prefRetBenefit" />
+
+        <EditTextPreference
+            android:title="Leave Time"
+            android:summary="Set Your Leave Time"
+            android:inputType="number"
+            android:key="prefLeave" />
+    </PreferenceCategory>
+</PreferenceScreen>

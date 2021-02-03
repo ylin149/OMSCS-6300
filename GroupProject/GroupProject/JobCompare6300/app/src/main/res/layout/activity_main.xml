@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_weight="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Main Menu"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnCurrentJob"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:text="Current job details" />
+
+
+    <Button
+        android:id="@+id/btnListOffers"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:text="Job offers" />
+
+    <Button
+        android:id="@+id/btnComparisonSettings"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:text="Comparison settings" />
+
+    <Button
+        android:id="@+id/btnCompareOffers"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:text="Compare Job Offers" />
+</LinearLayout>
+
